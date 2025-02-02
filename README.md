@@ -30,6 +30,10 @@ This project provides a step-by-step UI/UX for setting up a chatbot for new busi
 ## Tech Stack
 - **Frontend:** React.js (Recommended)
 - **Backend:** Dummy API for scraped data
+  ![image](https://github.com/user-attachments/assets/0a5af589-2c51-4d18-8f8f-b3cb96de6190)
+  ![image](https://github.com/user-attachments/assets/6b9985c3-e2ae-44ba-80e4-d14d9786c6f3)
+  ![image](https://github.com/user-attachments/assets/43290146-fae1-4d97-b5ce-9d2d3b1b0dcd)
+  ![image](https://github.com/user-attachments/assets/b70750e1-0a88-4069-b0f6-42c4da833e20)
 
 ## Setup
 1. Clone repo
