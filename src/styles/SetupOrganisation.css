@@ -1,0 +1,151 @@
+/* SetupOrganisation.css */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .card {
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .heading {
+    color: #2c3e50;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+  
+  .heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    border-radius: 2px;
+  }
+  
+  .form-label {
+    color: #34495e;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+  }
+  
+  textarea.form-control {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #2980b9, #2573a7);
+    transform: translateY(-2px);
+  }
+  
+  .btn-secondary {
+    background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background: linear-gradient(135deg, #7f8c8d, #6c7a7d);
+    transform: translateY(-2px);
+  }
+  
+  .list-group-item {
+    border: none;
+    background: #f8f9fa;
+    margin-bottom: 0.5rem;
+    border-radius: 8px !important;
+    padding: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  
+  .badge.bg-success {
+    background: linear-gradient(135deg, #2ecc71, #27ae60) !important;
+  }
+  
+  .badge.bg-warning {
+    background: linear-gradient(135deg, #f1c40f, #f39c12) !important;
+  }
+  
+  .btn-link {
+    color: #3498db;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    font-weight: 500;
+  }
+  
+  .btn-link:hover {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+  
+  /* Animation */
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .container {
+      margin: 1rem auto;
+    }
+    
+    .card {
+      padding: 1.5rem !important;
+    }
+    
+    .heading {
+      font-size: 1.5rem;
+    }
+  }
